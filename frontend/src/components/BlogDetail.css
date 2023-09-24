@@ -1,0 +1,95 @@
+/* BlogPostForm.css */
+
+/* Base styles for the form container */
+.blog-edith-form {
+    border: 3px solid linear-gradient(
+      90deg,
+      rgb(6, 7, 8) 2%,
+      rgb(1, 1, 1) 36%,
+      rgb(0, 0, 0) 73%,
+      rgb(0, 0, 0) 100%
+    );
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #161313;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  /* Title style */
+  .form-heading {
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+  }
+  
+  /* Style for form groups (e.g., each label and input pair) */
+  .form-label {
+    margin-bottom: 20px;
+  }
+  
+  /* Label style */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Input style */
+  input[type="text"] {
+    width: 91%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  /* Submit button style */
+  .form-submit {
+    margin-top: 20px;
+    border: none;
+    background-color: #c9bfa3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: progress; /* Use "pointer" if you want a standard cursor */
+  }
+  
+  /* Hover effect for the submit button */
+  .form-submit:hover {
+    background-color: rgb(35, 28, 28);
+  }
+  
+  /* Mobile Styles */
+  /* Adjust styles for smaller screens */
+  @media (max-width: 767px) {
+    .blog-edith-form {
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .form-heading {
+      font-size: 24px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media (min-width: 768px) {
+    .blog-edith-form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media (min-width: 1024px) {
+    .blog-edith-form {
+      max-width: 800px;
+    }
+  }
+  
